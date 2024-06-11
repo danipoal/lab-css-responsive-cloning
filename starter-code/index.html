@@ -5,9 +5,181 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CSS Lab | Responsive Cloning | Product Hunt</title>
-  <link rel="stylesheet" href="styles.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
+  <header>
+    <div class="head-container1">
+      <img class="logo" src="./images/logo.png" alt="No se ha cargado la imagen">
+      <form action="" method="GET">
+        <img class="input-icon" src="./images/search.png" alt="Error">
+        <input class="search-bar" type="text" placeholder="Discover your next favourite thing...">
+      </form>
+      <p><a href="#">...</a> <a href="#">Login</a></p>
+    </div>
+    <div class="separator"></div>
+    <div class="head-container2">
+      <ul class="nav">
+        <li class="nav-item">Home</li>
+        <li class="nav-item">Tech</li>
+        <li class="nav-item">Games</li>
+        <li class="nav-item">Podcasts</li>
+        <li class="nav-item">Books</li>
+        <li class="nav-item">Bots</li>
+        <li class="nav-item">Developer Tools</li>
+        <li class="nav-item">iMessage Apps</li>
+        <li class="nav-item">iPhone</li>
+        <li class="nav-item">Photography Tools</li>
+        <li class="nav-item">
+          <img class="flecha" src="./images/arrow-prev.png" alt="Error">
+          <img class="flecha" src="./images/arrow-next.png" alt="Error">
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div class="welcome-div">
+    <h3 style="color: black;">👋Welcome to Product Hunt</h3>
+    <p>Get the best new products in your  inbox daily.</p>
+    <form action="">
+      <input class="mail-input" type="text" placeholder="Your email">
+      <button class="suscribe-button">SUSCRIBE</button>
+    </form>
+    <img class="exit" src="./images/close.png" alt="Error">
+
+  </div>
+  <div class="full-container">
+    <main class="main-container">
+      <div class="popular-container">
+        <h1 style="border-bottom: solid 0.1px rgba(128, 128, 128, 0.436);
+        padding-bottom: 15px;">
+          Popular this week
+        </h1>
+        <div class="popular-item">
+          <img class="popular-picture" src="./images/popular-this-week/app-1.png" alt="Error">
+          <div>
+            <h1 class="popular-item-title">Duolingo Bots</h1>
+            <p class="popular-text">AI-powered characters to teach language conversation</p>
+            <div class="like">
+              <img src="./images/votes.png" alt="Err">
+              1400
+            </div>
+            <div class="comments">
+              <img src="./images/comments.png" alt="Err">
+              230
+            </div>
+          </div>
+
+          <div class="platform">
+            <span class="device">ANDROID</span> <span class="device-plus"> +3</span>
+          </div>
+        </div>
+        <div class="popular-item">
+          <img class="popular-picture" src="./images/popular-this-week/app-2.png" alt="Error">
+          <div>
+            <h1 class="popular-item-title">OAuth 2.0</h1>
+            <p class="popular-text">AI-powered characters to teach language conversation</p>
+            <div class="like">
+              <img src="./images/votes.png" alt="Err">
+              1400
+            </div>
+            <div class="comments">
+              <img src="./images/comments.png" alt="Err">
+              230
+            </div>
+          </div>
+          <div class="platform">
+            <span class="device">IPHONE</span> <span class="device-plus"> +1</span>
+          </div>
+        </div>
+        <div class="popular-item">
+          <img class="popular-picture" src="./images/popular-this-week/app-3.png" alt="Error">
+          <div>
+            <h1 class="popular-item-title">Workpalce by Facebook</h1>
+            <p class="popular-text">AI-powered characters to teach language conversation</p>
+            <div class="like">
+              <img src="./images/votes.png" alt="Err">
+              1400
+            </div>
+            <div class="comments">
+              <img src="./images/comments.png" alt="Err">
+              230
+            </div>
+          </div>
+          <div class="platform">
+            <span class="device">ANDROID</span> <span class="device-plus"> +2</span>
+          </div>
+        </div>
+        <div class="popular-showmore">
+          <img class="showmore-icon" src="./images/arrow-down.png" alt="Error">
+          <p>SHOW MORE</p>
+        </div>
+      </div>
+      <section class="today-container popular-container">
+        <div class="title-container">
+          <h1 style=" font-size: 2em;">
+            Today
+          </h1>
+          <span class="newest">Popular | Newest</span>
+        </div>
+
+        <div class="popular-item">
+          <img class="popular-picture" src="./images/today/app-1.png" alt="Error">
+          <div>
+            <h1 class="popular-item-title">Workpalce by Facebook</h1>
+            <p class="popular-text">AI-powered characters to teach language conversation</p>
+            <div class="like">
+              <img src="./images/votes.png" alt="Err">
+              1400
+            </div>
+            <div class="comments">
+              <img src="./images/comments.png" alt="Err">
+              230
+            </div>
+          </div>
+          <div class="platform">
+            <span class="device">ANDROID</span> <span class="device-plus"> +2</span>
+          </div>
+        </div>
+        <div class="popular-item">
+          <img class="popular-picture" src="./images/today/app-2.png" alt="Error">
+          <div>
+            <h1 class="popular-item-title">Workpalce by Facebook</h1>
+            <p class="popular-text">AI-powered characters to teach language conversation</p>
+            <div class="like">
+              <img src="./images/votes.png" alt="Err">
+              1400
+            </div>
+            <div class="comments">
+              <img src="./images/comments.png" alt="Err">
+              230
+            </div>
+          </div>
+          <div class="platform">
+            <span style="width: 130px;" class="device">GET SHIT DONE</span> <span class="device-plus"> +2</span>
+          </div>
+        </div>
+        <div class="popular-item">
+          <img class="popular-picture" src="./images/today/app-3.png" alt="Error">
+          <div>
+            <h1 class="popular-item-title">Workpalce by Facebook</h1>
+            <p class="popular-text">AI-powered characters to teach language conversation</p>
+            <div class="like">
+              <img src="./images/votes.png" alt="Err">
+              1400
+            </div>
+            <div class="comments">
+              <img src="./images/comments.png" alt="Err">
+              230
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+    <aside class="side-container">
+      aaaa
+    </aside>
+  </div>
+
 </body>
 </html>
