@@ -11,11 +11,11 @@
   <header>
     <div class="head-container1">
       <img class="logo" src="./images/logo.png" alt="No se ha cargado la imagen">
-      <form action="" method="GET">
+      <form class="search-form"action="" method="GET">
         <img class="input-icon" src="./images/search.png" alt="Error">
         <input class="search-bar" type="text" placeholder="Discover your next favourite thing...">
       </form>
-      <p><a href="#">...</a> <a href="#">Login</a></p>
+      <p><a href="#">...</a><span style="color: transparent;">..</span><a href="#">Login</a></p>
     </div>
     <div class="separator"></div>
     <div class="head-container2">
@@ -50,8 +50,8 @@
   <div class="full-container">
     <main class="main-container">
       <div class="popular-container">
-        <h1 style="border-bottom: solid 0.1px rgba(128, 128, 128, 0.436);
-        padding-bottom: 15px;">
+        <h1 class="title" style="border-bottom: solid 0.1px rgba(128, 128, 128, 0.436);
+        padding-bottom: 10px; margin-bottom: 0; margin-top: 10px;">
           Popular this week
         </h1>
         <div class="popular-item">
@@ -116,7 +116,8 @@
       </div>
       <section class="today-container popular-container">
         <div class="title-container">
-          <h1 style=" font-size: 2em;">
+          <img class="popular-close" src="./images/close.png" alt="Error">
+          <h1 class="title">
             Today
           </h1>
           <span class="newest">Popular | Newest</span>
@@ -155,7 +156,7 @@
             </div>
           </div>
           <div class="platform">
-            <span style="width: 130px;" class="device">GET SHIT DONE</span> <span class="device-plus"> +2</span>
+            <span style="width: 90px;" class="device">GET SHIT DONE</span> <span class="device-plus"> +2</span>
           </div>
         </div>
         <div class="popular-item">
@@ -183,7 +184,7 @@
     <aside class="side-container">
       <div class="kitty-container">
         <img src="images/close.png" alt="Error">
-        <h1>Kittybox for Slack.</h1>
+        <h1 class="title">Kittybox for Slack</h1>
         <p>A friendly feline that sends you cool new things.</p>
         <button class="kitty-button boton"># ADD KITTYBOT TO SLACK</button>
       </div>
@@ -217,6 +218,43 @@
         </div>
 
         <div class="chat-more">SEE MORE</div>
+      </div>
+      <div class="tweet-container">
+        <p>
+          <span class="tweet-title">Tweets</span> liked by <br><a style="text-decoration: underline; color: rgb(0, 145, 255);" href="">@ProductHunt</a>
+        </p>
+        <div class="tweet-content">
+          <div class="tweet-items">
+            <img class="tweet-profile" src="./images/persons/person1.jpg" alt="Err">
+            <p class="tweet-head"> 
+              <span class="tweet-name">Taylor Swift</span><br>
+              <a href="" class="tweet-user" style="text-decoration: underline; color: rgb(0, 145, 255);">@TaylirSft</a>
+            </p>
+            <img class="tweet-icon" src="./images/twitter-icon.png" alt="Err">
+            <p class="tweet-text">It's crazy how this people stayed in the night without going to the toylet juju</p>
+          </div>
+
+          <div class="tweet-items">
+            <img class="tweet-profile" src="./images/persons/person2.jpg" alt="Err">
+            <p class="tweet-head"> 
+              <span class="tweet-name">Barack Obama</span><br>
+              <a href="" class="tweet-user" style="text-decoration: underline; color: rgb(0, 145, 255);">@obm</a>
+            </p>
+            <img class="tweet-icon" src="./images/twitter-icon.png" alt="Err">
+            <p class="tweet-text">Don't even know what is this Biden doing in the ceremony. The man was totaly paralyzed. Usa is going throught a very very dark days..</p>
+          </div>
+
+          <div class="tweet-items">
+            <img class="tweet-profile" src="./images/persons/person3.jpg" alt="Err">
+            <p class="tweet-head"> 
+              <span class="tweet-name">Justin Bieber</span><br>
+              <a href="" class="tweet-user" style="text-decoration: underline; color: rgb(0, 145, 255);">@Jastin</a>
+            </p>
+            <img class="tweet-icon" src="./images/twitter-icon.png" alt="Err">
+            <p class="tweet-text">Baby, baby, baby uuuh. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+        </div>
       </div>
     </aside>
   </div>
